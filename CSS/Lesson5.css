@@ -1,0 +1,50 @@
+#menu{
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    background-color: #fff;
+}
+#menu::after,#menu::before{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+}
+#menu::after{
+    position: absolute;
+    top: 20px;
+}
+#menu::before{
+    position: absolute;
+    top: 10px;
+}
+ul{
+    display: none;
+}
+ul li{
+    text-decoration: none;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+header h1{
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+#lorem{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+header{
+    background-color:palevioletred;
+}
+nav{
+    background-color:rgb(236, 13, 87);
+}
