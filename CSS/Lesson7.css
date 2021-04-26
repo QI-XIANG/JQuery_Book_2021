@@ -8,6 +8,9 @@ figure{
     left: 50%;
     margin-left: -320px;
 }
+li img{
+    cursor: pointer;
+}
 ul{
     position: absolute;
     left: 50%;
